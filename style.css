@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    font-family:serif;
+    font-size: large;
+    color:midnightblue;
+    font-style:strong;
+    
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+    
+
+}
+.about{
+    text-align: center;
+    font-size: 2.3em;
+    margin: 0%;
+}
+.nav a{
+    display: inline-block;
+    padding: .9em;
+    color: rgb(211, 194, 194);
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: rgb(156, 176, 189) ;
+}
+
+.main-nav{
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-nav li{
+    padding: 0 3%;
+}
+
+.band{
+    text-align: center;
+    color: rgb(17, 16, 15);
+    font-size: 4em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+
+}
+
+.band-big{
+    font-size: 4em;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 15px;;
+    float: left;
+                
+}
+
+.para{
+    font-size: larger;
+    margin-bottom: 5%;
+}
+.main-header{
+    background-image: url(images/lastbg.jpg);
+    background-size: cover;
+    padding-bottom: 30px;
+  
+}
+.footer-main{
+    background-color: rgb(183, 153, 183);
+   
+
+
+}
+.my-foot{
+    font-size: 1.9em;
+    
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container{
+    flex-grow: 1;
+
+
+}
+.footer-nav img{
+    width: 25%;
+
+    
+
+}
